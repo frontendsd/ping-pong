@@ -1,0 +1,80 @@
+@import url(https://fonts.googleapis.com/css2?family=Lato:wght@100;200;300;400;500;600;800;900&display=swap);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(45deg, rgba(30, 2, 189, 0.829),rgba(192, 27, 27, 0.781),rgba(178, 241, 4, 0.808));
+    height: 100vh;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+.main-content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    aspect-ratio: 1;
+    border-radius: 24px;
+    background-color: #fff;
+    border: none;
+}
+
+.main-content img {
+    border-radius: 24px 24px 0 0;
+    object-fit: cover;
+}
+
+.site-list {
+    list-style-type: none;
+}
+
+
+.site-title {
+    color: #222;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.player-number {
+    margin-bottom: 20px;
+}
+
+.player1 {
+    border: none;
+    outline: none;
+    padding: 5px 15px;
+    border-radius: 8px;
+    color: #fff;
+    background-color: green;
+    cursor: pointer;
+    border: 1px solid;
+    margin-bottom: 10px;
+}
+.player1:hover {
+    background-color: #fff;
+    color: green;
+    border: 1px solid green;
+}
+.player2 {
+    border: none;
+    outline: none;
+    padding: 5px 15px;
+    border-radius: 8px;
+    color: #fff;
+    background-color: rgb(0, 117, 128);
+    cursor: pointer;
+    border: 1px solid;
+    margin-bottom: 10px;
+}
+.player2:hover {
+    background-color: #fff;
+    color: rgb(0, 117, 128);
+    border: 1px solid rgb(0, 117, 128);
+}
+.fa-brands {
+    color: #222;
+}
