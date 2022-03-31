@@ -17,7 +17,7 @@ body {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: 400px;
+    width: 420px;
     aspect-ratio: 1;
     border-radius: 24px;
     background-color: #fff;
@@ -75,6 +75,31 @@ body {
     color: rgb(0, 117, 128);
     border: 1px solid rgb(0, 117, 128);
 }
+.reset {
+    border: none;
+    outline: none;
+    background-color: rgba(255, 0, 0, 0.835);
+    color: #fff;
+    padding: 5px 60px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 1px solid;
+}
+.reset:hover {
+    background-color: #fff;
+    color: red;
+    border: 1px solid red;
+}
+
+.site-link {
+    display: block;
+    margin-top: 10px;
+}
+.site-link a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: rgba(255, 0, 0, 0.835);
+}
 .fa-brands {
-    color: #222;
+    color: rgba(255, 0, 0, 0.835);
 }
